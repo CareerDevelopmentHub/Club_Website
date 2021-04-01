@@ -837,6 +837,20 @@ section.contact-me {
 @media screen and (max-width: 600px) {
     .right-image-post,iframe
     {
+<<<<<<< HEAD
+        width: 50%;
+        min-height: 40%;
+    }
+    .white-button{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    .right-image-post,iframe
+    {
+        width: 50%;
+        max-height: 100%;
+=======
 
 
 
@@ -845,6 +859,7 @@ section.contact-me {
 
 
 
+>>>>>>> fad87b2c68bd9548f63e6ac80ebd3ddc31b96c37
     }
     .white-button{
         display: none;
