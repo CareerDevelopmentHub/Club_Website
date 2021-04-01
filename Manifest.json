@@ -1,0 +1,20 @@
+{
+    "name": "Coding Wizard Club",
+    "short_name": "CWC",
+    "start_url": ".",
+    "background_color": "#6dacdb",
+    "theme_color": "#007897",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "i1.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "i2.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
