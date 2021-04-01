@@ -834,11 +834,17 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .right-image-post,iframe
     {
-        display: none;
-        height: 0%;
+
+
+
+        width: 50%;
+        min-height: 100vh;
+
+
+
     }
     .white-button{
         display: none;
