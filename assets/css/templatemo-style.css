@@ -834,7 +834,7 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .right-image-post,iframe
     {
         display: none;
@@ -851,4 +851,4 @@ section.contact-me {
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
-  }
+  }*/
