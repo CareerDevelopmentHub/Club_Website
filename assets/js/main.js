@@ -1,14 +1,14 @@
 function iframecng(ids) {
     if (ids == 1) {
-        document.getElementById("iFrames").src = "https://www.jdoodle.com/iembed/v0/9PM";
+        document.getElementById("iFrames").src = "https://onecompiler.com/java";
         console.log("Java");
     }
     else if (ids == 2) {
-        document.getElementById("iFrames").src = "https://www.jdoodle.com/iembed/v0/bu7";
+        document.getElementById("iFrames").src = "https://console.python.org/python-dot-org-console/";
         console.log("Python");
     }
     else if (ids == 3) {
-        document.getElementById("iFrames").src = "https://www.jdoodle.com/iembed/v0/bu6";
+        document.getElementById("iFrames").src = "http://cpp.sh/";
         console.log("CPP");
     }
     else if (ids == 4) {
@@ -228,9 +228,9 @@ var snowStorm = (function (window, document) {
         function getArgs(oArgs) {
             var args = slice.call(oArgs), len = args.length;
             if (old) {
-                args[1] = 'on' + args[1]; // prefix
+                args[1] = 'on' + args[1];
                 if (len > 3) {
-                    args.pop(); // no capture
+                    args.pop();
                 }
             } else if (len === 3) {
                 args.push(false);
