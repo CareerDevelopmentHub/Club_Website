@@ -297,10 +297,10 @@ html {
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
 
-.compiler
+/* .compiler
 {
     min-height: 220vh;
-}
+} */
 .section-heading {
     text-align: center;
     padding: 80px 45px;
