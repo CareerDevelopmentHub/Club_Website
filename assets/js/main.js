@@ -8,24 +8,24 @@ if ("serviceWorker" in navigator) {
     });
 }
 
-function iframecng(ids) {
-    if (ids == 1) {
-        document.getElementById("iFrames").src = "https://onecompiler.com/java";
-        console.log("Java");
-    }
-    else if (ids == 2) {
-        document.getElementById("iFrames").src = "https://console.python.org/python-dot-org-console/";
-        console.log("Python");
-    }
-    else if (ids == 3) {
-        document.getElementById("iFrames").src = "http://cpp.sh/";
-        console.log("CPP");
-    }
-    else if (ids == 4) {
-        document.getElementById("iFrames").src = "https://rextester.com/l/js_online_compiler";
-        console.log("JS");
-    }
-}
+// function iframecng(ids) {
+//     if (ids == 1) {
+//         document.getElementById("iFrames").src = "https://www.jdoodle.com/embed/v0/3br6";
+//         console.log("Java");
+//     }
+//     else if (ids == 2) {
+//         document.getElementById("iFrames").src = "https://www.jdoodle.com/embed/v0/3br8";
+//         console.log("Python");
+//     }
+//     else if (ids == 3) {
+//         document.getElementById("iFrames").src = "http://cpp.sh/";
+//         console.log("CPP");
+//     }
+//     else if (ids == 4) {
+//         document.getElementById("iFrames").src = "https://rextester.com/l/js_online_compiler";
+//         console.log("JS");
+//     }
+// }
 function validate() {
     var name = document.getElementById("name").value;
     var subject = document.getElementById("subject").value;
