@@ -194,9 +194,9 @@ html {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bolder;
-    color: #58f000;
+    color: #f00000;
 }
 
 .menu:before,
@@ -837,7 +837,6 @@ section.contact-me {
 @media screen and (max-width: 600px) {
     .right-image-post,iframe
     {
-<<<<<<< HEAD
         width: 50%;
         min-height: 40%;
     }
@@ -850,16 +849,6 @@ section.contact-me {
     {
         width: 50%;
         max-height: 100%;
-=======
-
-
-
-        width: 50%;
-        min-height: 80%;
-
-
-
->>>>>>> fad87b2c68bd9548f63e6ac80ebd3ddc31b96c37
     }
     .white-button{
         display: none;
@@ -872,4 +861,4 @@ section.contact-me {
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
-  }*/
+  }
